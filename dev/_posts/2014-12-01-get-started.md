@@ -7,7 +7,6 @@ tags: 					[]
 permalink: 				/contribute
 date:   				2014-12-01
 ---
-{% include JB/setup %}
 
 <h3>Contribute to this repository:</h3>
 
