@@ -241,7 +241,6 @@ Render the content variable wherever you want your main content to be injected i
   </div>
 </body>
 ...{% endcapture %}
-{% include JB/liquid_raw %}
 
 ### Sub-Templates
 
