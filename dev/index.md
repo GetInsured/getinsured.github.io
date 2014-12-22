@@ -2,7 +2,6 @@
 layout:         page
 title:          Let's Create Together
 ---
-{% include JB/setup %}
 
 We're creating a place that we can create and build together. Here's a working document that everyone can contribute to &mdash; whether it be ideas, neat tricks or guidelines. A brief <a href="{{ BASE_PATH }}/contribute">intro</a> of how you can contribute.
 
