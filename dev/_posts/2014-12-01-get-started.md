@@ -7,9 +7,6 @@ tags: 					[]
 permalink: 				/contribute
 date:   				2014-12-01
 ---
-
-<h3>Contribute to this repository:</h3>
-
 <ul>
 	<li>Go to the <a href="//github.com/GetInsured/getinsured.github.io">GI Github Repository</a></li>
 	<li>git clone <code>https://github.com/GetInsured/getinsured.github.io.git</code></li>
@@ -32,6 +29,17 @@ date:   				2014-12-01
 Use the following path for relative links: 
 <pre>&lt;a href="&#123;&#123; BASE_PATH &#125;&#125;/test"&gt;test&lt;/a&gt;</pre>
 
+<h3>Jekyll</h3>
+
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+
+<h3>Grunt.js</h3>
+
+We've put Grunt.js in this workspace. Simply run Grunt within the <code>dev</code> folder. We've only included the most minimal grunt tasks. 
+
+<ul>
+	<li><code>npm install grunt-contrib-sass --save-dev</code></li>
+	<li><code>npm install grunt-contrib-watch --save-dev</code></li>
+</ul>
