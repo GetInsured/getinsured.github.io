@@ -1,7 +1,7 @@
 ---
-layout: 				page
-title: 					about
-permalink: 				/about/
+layout: page
+title: categories
+permalink: /categories/
 showheader: 			true
 ---
 

@@ -4,21 +4,27 @@ showheader: 			true
 ---
 
 <div class="home">
+    <div class="intro">
+        <p>We're creating a place that we can create and build together. Here's a working document that everyone can contribute to &mdash; whether it be ideas, neat tricks or guidelines.</p>
+        <a href="{{ BASE_PATH }}/contribute">Learn how to contribute</a>
+    </div>
 
-  <h1 class="page-heading">Development Corner</h1>
+    <div class="wrapper">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        
+        {% for category in site.categories %}
+            <p class="category" name="{{ category | first }}">{{ category | first }}</p>
+            <ul>
+            {% for posts in category %}
+              {% for post in posts %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endfor %}
+            {% endfor %}
+            </ul>
+        {% endfor %} 
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div><!--/.wrapper-->
 
-</div>
+</div><!--/.home-->

@@ -1,0 +1,23 @@
+
+.site-header{
+	text-align:center;
+	padding:20px 0 30px;
+}
+.site-title{
+	font-size: 19px;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	float: none;
+}
+nav{
+	&.site-nav{
+		float:none;
+		line-height:0;
+	}
+	.page-link{
+		float:none;
+		font-size:14px;
+		letter-spacing:0.1em;
+		text-transform:lowercase;
+	}
+}

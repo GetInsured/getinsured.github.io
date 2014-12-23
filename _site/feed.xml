@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>gi stardust</title>
+    <description>Here are the building blocks to a successful front-end development world.
 </description>
     <link>http://getinsured.github.io/dev//</link>
     <atom:link href="http://getinsured.github.io/dev//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Dec 2014 19:31:29 -0800</pubDate>
-    <lastBuildDate>Mon, 22 Dec 2014 19:31:29 -0800</lastBuildDate>
+    <pubDate>Mon, 22 Dec 2014 23:48:19 -0800</pubDate>
+    <lastBuildDate>Mon, 22 Dec 2014 23:48:19 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -35,6 +35,295 @@
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Colors</title>
+        <description>&lt;h3&gt;PHIX 2015 Colors&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;GetInsured Green&lt;/strong&gt;
+&lt;code&gt;#4BA760&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GetInsured Blue&lt;/strong&gt;
+&lt;code&gt;#2383C7&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Klinker Brick Red&lt;/strong&gt;
+&lt;code&gt;#EA523D&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Link Color&lt;/strong&gt;
+&lt;code&gt;#428BCA&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3&gt;variables.less&lt;/h3&gt;
+
+&lt;p&gt;See &lt;strong&gt;variables.less&lt;/strong&gt; file for most recent variables.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ghix-web/src/main/webapp/resources/2015/variables.less&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Dec 2014 00:00:00 -0800</pubDate>
+        <link>http://getinsured.github.io/dev//phix-2015-colors</link>
+        <guid isPermaLink="true">http://getinsured.github.io/dev//phix-2015-colors</guid>
+        
+        
+        <category>styleguide</category>
+        
+      </item>
+    
+      <item>
+        <title>Prototyping</title>
+        <description>&lt;h4&gt;&lt;a href=&quot;http://www.invisionapp.com/&quot;&gt;Invision&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Transform your Web and Mobile designs into clickable, interactive Prototypes and Mockups.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href=&quot;//www.flinto.com&quot;&gt;Flinto&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Mobile prototyping. Flinto makes it quick and easy to create prototypes that look just like the real thing. And Flinto doesn&#39;t disrupt your current workflow&lt;/p&gt;</description>
+        <pubDate>Thu, 18 Dec 2014 00:00:00 -0800</pubDate>
+        <link>http://getinsured.github.io/dev//prototyping</link>
+        <guid isPermaLink="true">http://getinsured.github.io/dev//prototyping</guid>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Chrome Extensions</title>
+        <description>&lt;p&gt;A list of extensions that everyone&#39;s come across and use daily in our workflow.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.colorzilla.com/chrome/&quot;&gt;ColorZilla&lt;/a&gt;&lt;/h3&gt;
+Grab colors on any website.
+
+&lt;img src=&quot;/images/colorzilla.png&quot; alt=&quot;colorzilla&quot;&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.fontface.ninja/&quot;&gt;FontFaceNina&lt;/a&gt;&lt;/h3&gt;
+Analyze basic parameters of any font face on any website.
+
+&lt;img src=&quot;/images/font-face-ninja.png&quot; alt=&quot;Font Face Ninja&quot;&gt;</description>
+        <pubDate>Thu, 18 Dec 2014 00:00:00 -0800</pubDate>
+        <link>http://getinsured.github.io/dev//chrome-extensions</link>
+        <guid isPermaLink="true">http://getinsured.github.io/dev//chrome-extensions</guid>
+        
+        
+        <category>resources</category>
+        
+      </item>
+    
+      <item>
+        <title>Stop Your Server: (3/3)</title>
+        <description>&lt;h3&gt;Let&#39;s stop your server&lt;/h3&gt;
+&lt;p&gt;If you haven&#39;t built your workspace already, start with &lt;a href=&quot;/setup-workspace-part-1&quot;&gt;Build Your Workspace: (1/3)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you haven&#39;t learned to start your server, go to &lt;a href=&quot;/start-server-part-2&quot;&gt;Start Your Server: (2/3)&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;&lt;code&gt;/Users/leong_e/Software/apache-tomcat-7.0.55/bin/./catalina.sh stop&lt;/code&gt; &lt;span class=&quot;cheat&quot;&gt;Use shortcut &quot;control + r&quot; + type stop&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;Check to see if your server is stopped &lt;code&gt;ps ux | grep &#39;tomcat&#39;&lt;/code&gt;. 
+		&lt;p&gt;You should only see one line of code on top of the command.&lt;/p&gt;
+	&lt;img src=&quot;/images/deployment-stop-successful.png&quot; alt=&quot;stop server successful&quot;&gt;
+	&lt;/li&gt;
+	&lt;li&gt;If the server has more than 1 line, it&#39;s still running, you must kill ^_^&lt;/li&gt;
+	&lt;li&gt;Get your process ID
+	&lt;img src=&quot;/images/deployment-stop-not-successful.png&quot; alt=&quot;stop server process ID&quot;&gt;
+	&lt;/li&gt;
+	&lt;li&gt; &lt;code&gt;kill -9 28643&lt;/code&gt; &lt;/li&gt;
+	&lt;li&gt;code&gt;ps ux | grep &#39;tomcat&#39;&lt;/code&gt;&lt;/li&gt;
+	&lt;li&gt;boom. success.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+</description>
+        <pubDate>Wed, 17 Dec 2014 00:00:00 -0800</pubDate>
+        <link>http://getinsured.github.io/dev//setup-workspace-part-3</link>
+        <guid isPermaLink="true">http://getinsured.github.io/dev//setup-workspace-part-3</guid>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Start Your Server: (2/3)</title>
+        <description>&lt;h3&gt;Let&#39;s start your server&lt;/h3&gt;
+&lt;p&gt;If you haven&#39;t built your workspace already, start with &lt;a href=&quot;/setup-workspace-part-1&quot;&gt;Build Your Workspace: (1/3)&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;Set your &lt;code&gt;.profile&lt;/code&gt;&lt;/li&gt;
+	&lt;li&gt;git pull&lt;/li&gt;
+	&lt;li&gt;Build your projects in a specific order
+		&lt;ol&gt;
+			&lt;li&gt;shared-platform - run for the first time in ghix-platform/setup/dependencies: &lt;code&gt;.install-maven-dep.sh&lt;/code&gt;
+			&lt;/li&gt;
+			&lt;li&gt;shared-models&lt;/li&gt;
+			&lt;li&gt;[your project]&lt;/li&gt;
+		&lt;/ol&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;code&gt;mvn clean install -DskipTests&lt;/code&gt; &lt;span class=&quot;cheat&quot;&gt; &quot;control + r&quot; - start typing and it will finish it for you&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;Change your &lt;code&gt;configuration.properites&lt;/code&gt; to npoint to the correct database. &lt;span class=&quot;cheat&quot;&gt;Save a local version of a configuration.properties to save time.&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;Go to where your &lt;code&gt;deploymentScript.sh&lt;/code&gt; lives&lt;/li&gt;
+	&lt;li&gt;Run &lt;code&gt;./deploymentScript.sh&lt;/code&gt;&lt;/li&gt;
+	&lt;li&gt;Yippee! Your server has started!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;How do you see local changes?&lt;/h3&gt;
+&lt;ol&gt;
+	&lt;li&gt;cd to where your tomcat is
+&lt;code&gt;/Users/leong_e/Software/apache-tomcat-7.0.55/webapps&lt;/code&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Get the path for your file.&lt;/li&gt;
+	&lt;li&gt;&lt;code&gt;cp &amp;lt;FILEPATH&amp;gt; hix/&amp;lt;FILEPATH&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;a href=&quot;/setup-workspace-part-3&quot;&gt;Next - Stop Your Server: (3/3)&lt;/a&gt;
+
+
+</description>
+        <pubDate>Wed, 17 Dec 2014 00:00:00 -0800</pubDate>
+        <link>http://getinsured.github.io/dev//start-server-part-2</link>
+        <guid isPermaLink="true">http://getinsured.github.io/dev//start-server-part-2</guid>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Build Your Workspace: (1/3)</title>
+        <description>Here are deployment steps to set up your workspace like the smart engineers do.
+
+&lt;h3&gt;Build Your Workspace: You only need to do this ONCE&lt;/h3&gt;
+&lt;p&gt;If you&#39;ve done this already, skip to &lt;a href=&quot;/setup-workspace-part-2&quot;&gt;Start Server&lt;/a&gt;
+&lt;ol&gt;
+	&lt;li&gt;Download &lt;a href=&quot;http://tomcat.apache.org/download-70.cgi&quot;&gt;tomcat&lt;/a&gt; (Core: zip or tar.gz)&lt;/li&gt;
+	&lt;li&gt;Create &lt;code&gt;.profile&lt;/code&gt; and change the specific paths
+&lt;pre&gt;
+M2_HOME=/Users/leong_e/Software/apache-maven-3.2.2
+export M2_HOME
+export M2=$M2_HOME/bin
+export PATH=$M2:$PATH
+
+# maven options
+export MAVEN_OPTS=&quot;-Xmx1624m -XX:MaxPermSize=1624m&quot;
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home
+export PATH=$PATH:$JAVA_HOME/bin
+
+export GHIX_HOME=&quot;/Users/leong_e/Documents/Workfolder/beta/ghix&quot;
+export PASSWORD_KEY=ghix123
+export CATALINA_HOME=&quot;/Users/leong_e/Software/apache-tomcat-7.0.55&quot;
+&lt;/pre&gt;
+	&lt;/li&gt;
+	&lt;li&gt;cd to &lt;code&gt;$CATALINA_HOME&lt;/code&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;code&gt;vi bin/setenv.sh&lt;/code&gt; (will need to type this out the first time)&lt;/li&gt;
+			&lt;li&gt;add this inside the vim and change the specific path
+&lt;pre&gt;
+export JAVA_OPTS=&quot;-Dfile.encoding=UTF-8 -DGHIX_SECNTX_TYPE=db -Dorg.owasp.esapi.resources=/Users/leong_e/Documents/Workfolder/beta/ghix/ghix-setup/esapi -Dbitronix.tm.configuration=/Users/leong_e/Documents/Workfolder/beta/ghix/ghix-setup/conf/configuration.properties -DPASSWORD_KEY=ghix123 -Xms256m -Xmx2056m -XX:PermSize=1524m -XX:MaxPermSize=2556m&quot;
+
+export GHIX_HOME=&quot;/Users/leong_e/Documents/Workfolder/beta/ghix&quot;
+&lt;/pre&gt;
+			&lt;/li&gt;
+			&lt;li&gt;Hurry, get out of VIM! &lt;code&gt;:wq!&lt;/code&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Put the file &lt;a href=&quot;/resources/deploymentScript.sh&quot;&gt;deploymentScript.sh&lt;/a&gt; in desired folder&lt;/li&gt;
+	&lt;li&gt;copy from where your &lt;code&gt;ojdbc6-11.2.0.1.0.jar&lt;/code&gt; file lives to your lib. 
+&lt;pre&gt;
+cp /Users/leong_e/.m2/repository/com/oracle/ojdbc6/11.2.0.1.0/ojdbc6-11.2.0.1.0.jar $CATALINA_HOME/lib
+&lt;/pre&gt;
+	The space before $CATALINA_HOME is deliberate. And make sure to change the path to your own.
+		&lt;ul&gt;
+			&lt;li&gt;If the file is not there, go into &lt;code&gt;/SHARED-PLATFORMS/ghix/ghix-platform/setup/dependencies&lt;/code&gt;&lt;/li&gt;
+			&lt;li&gt;run &lt;code&gt;./install-maven-dep.sh&lt;/code&gt;&lt;/li&gt;
+			&lt;li&gt;This will update the .m2 repository&lt;/li&gt;
+			&lt;li&gt;run 
+&lt;pre&gt;
+cp /Users/seimithsuth/Documents/workfolder/SHARED-PLATFORMS/ghix/ghix-platform/setup/dependencies/ojdbc6-11.2.0.1.0.jar ~/.m2/repository/com/oracle/ojdbc6/11.2.0.1.0
+&lt;/pre&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Check your &lt;code&gt;context.xml&lt;/code&gt; in $CATALINA_HOME/conf/context.xml (Note: Depends on which project you&#39;re on. ie: phix, state...&lt;/li&gt;
+	&lt;li&gt;Change the source paths to your &lt;code&gt;.profile&lt;/code&gt;&lt;/li&gt;
+	&lt;li&gt;Go into the folder you put your deploymentScript.sh file and run it: &lt;code&gt;./deploymentScript.sh&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;a href=&quot;/setup-workspace-part-2&quot;&gt;Next - Start Your Server: (2/3)&lt;/a&gt;
+
+
+
+
+
+</description>
+        <pubDate>Wed, 17 Dec 2014 00:00:00 -0800</pubDate>
+        <link>http://getinsured.github.io/dev//setup-workspace-part-1</link>
+        <guid isPermaLink="true">http://getinsured.github.io/dev//setup-workspace-part-1</guid>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Typography</title>
+        <description>&lt;h3&gt;PHIX 2015 Typography&lt;/h3&gt;
+
+The following fonts are being used in the PHIX 2015 theme. 
+
+&lt;a href=&quot;//www.google.com/fonts/specimen/Roboto+Slab&quot;&gt;Roboto Slab&lt;/a&gt;
+
+&lt;a href=&quot;//www.google.com/fonts/specimen/Lato&quot;&gt;Lato&lt;/a&gt; 
+
+&lt;a href=&quot;//fortawesome.github.io/Font-Awesome/3.2.1/&quot;&gt;FontAwesome 3.2.1&lt;/a&gt;</description>
+        <pubDate>Wed, 17 Dec 2014 00:00:00 -0800</pubDate>
+        <link>http://getinsured.github.io/dev//phix-2015-typography</link>
+        <guid isPermaLink="true">http://getinsured.github.io/dev//phix-2015-typography</guid>
+        
+        
+        <category>styleguide</category>
+        
+      </item>
+    
+      <item>
+        <title>Humans.md</title>
+        <description>&lt;h3&gt;What&#39;s a humans.md file?&lt;/h3&gt;
+&lt;p&gt;Find everything you need to know about the PHIX 2015 theme. There are steps on how to create sprites, what references were used to create the theme, how to build new LESS files and more.&lt;/p&gt;
+&lt;p&gt;The human.md file lives in &lt;code&gt;ghix-web/src/main/webapp/resources/humans.md&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4&gt;Learn how to:&lt;/h4&gt;
+&lt;ul&gt;
+	&lt;li&gt;Grunt SVG, PNG, images into Sprites&lt;/li&gt;
+	&lt;li&gt;How to put the sprite into your HTML&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Grunt.js Intro&lt;/h4&gt;
+&lt;p&gt;Start with this to get &lt;a href=&quot;http://24ways.org/2013/grunt-is-not-weird-and-hard/&quot;&gt;Grunt&lt;/a&gt; running.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 17 Dec 2014 00:00:00 -0800</pubDate>
+        <link>http://getinsured.github.io/dev//humans-file</link>
+        <guid isPermaLink="true">http://getinsured.github.io/dev//humans-file</guid>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>GetInsured Resources</title>
+        <description>&lt;h3&gt;Resources&lt;/h3&gt;
+
+&lt;h4&gt;GetInsured Logo Formats&lt;/h4&gt;
+&lt;p&gt;Download them here:&lt;/p&gt;
+&lt;a href=&quot;#&quot;&gt;PNG&lt;/a&gt;
+&lt;a href=&quot;#&quot;&gt;SVG&lt;/a&gt;
+&lt;a href=&quot;#&quot;&gt;AI&lt;/a&gt;
+&lt;a href=&quot;#&quot;&gt;JPG&lt;/a&gt;
+
+&lt;h4&gt;GetInsured Favicon&lt;/h4&gt;
+&lt;p&gt;Download them here:&lt;/p&gt;</description>
+        <pubDate>Wed, 17 Dec 2014 00:00:00 -0800</pubDate>
+        <link>http://getinsured.github.io/dev//gi-resources</link>
+        <guid isPermaLink="true">http://getinsured.github.io/dev//gi-resources</guid>
+        
+        
+        <category>resources</category>
         
       </item>
     

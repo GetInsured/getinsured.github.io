@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>about</title>
-  <meta name="description" content="Here are the building blocks to a successful front-end development world.
-">
+  <title>Start Your Server: (2/3)</title>
+  <meta name="description" content="Let's start your serverIf you haven't built your workspace already, start with Build Your Workspace: (1/3)	Set your .profile	git pull	Build your projects in ...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://getinsured.github.io/dev//about/">
+  <link rel="canonical" href="http://getinsured.github.io/dev//start-server-part-2">
   <link rel="alternate" type="application/rss+xml" title="gi stardust" href="http://getinsured.github.io/dev//feed.xml" />
 </head>
 
@@ -69,22 +68,53 @@
 
     <div class="page-content">
      <!--  <div class="wrapper"> -->
-        <div class="post wrapper">
+        <div class="wrapper">
+	<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">about</h1>
-  </header>
+	  <header class="post-header">
+	    <h1 class="post-title">Start Your Server: (2/3)</h1>
+	    <p class="post-meta">Dec 17, 2014</p>
+	  </header>
 
-  <article class="post-content">
-    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
+	  <article class="post-content">
+	    <h3>Let's start your server</h3>
+<p>If you haven't built your workspace already, start with <a href="/setup-workspace-part-1">Build Your Workspace: (1/3)</a></p>
+<ol>
+	<li>Set your <code>.profile</code></li>
+	<li>git pull</li>
+	<li>Build your projects in a specific order
+		<ol>
+			<li>shared-platform - run for the first time in ghix-platform/setup/dependencies: <code>.install-maven-dep.sh</code>
+			</li>
+			<li>shared-models</li>
+			<li>[your project]</li>
+		</ol>
+	</li>
+	<li><code>mvn clean install -DskipTests</code> <span class="cheat"> "control + r" - start typing and it will finish it for you</span></li>
+	<li>Change your <code>configuration.properites</code> to npoint to the correct database. <span class="cheat">Save a local version of a configuration.properties to save time.</span></li>
+	<li>Go to where your <code>deploymentScript.sh</code> lives</li>
+	<li>Run <code>./deploymentScript.sh</code></li>
+	<li>Yippee! Your server has started!</li>
+</ol>
 
-<p>You can find the source code for the Jekyll new theme at: <a href="https://github.com/jglovier/jekyll-new">github.com/jglovier/jekyll-new</a></p>
+<h3>How do you see local changes?</h3>
+<ol>
+	<li>cd to where your tomcat is
+<code>/Users/leong_e/Software/apache-tomcat-7.0.55/webapps</code>
+	</li>
+	<li>Get the path for your file.</li>
+	<li><code>cp &lt;FILEPATH&gt; hix/&lt;FILEPATH&gt;</code></li>
+</ol>
 
-<p>You can find the source code for Jekyll at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a></p>
 
-  </article>
+<a href="/setup-workspace-part-3">Next - Stop Your Server: (3/3)</a>
 
-</div>
+
+
+	  </article>
+
+	</div>
+</div><!--/.wrapper-->
 
      <!--  </div> -->
     </div>

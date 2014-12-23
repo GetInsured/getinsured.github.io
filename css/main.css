@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Lato", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -447,3 +447,44 @@ pre {
     color: teal; }
   .highlight .il {
     color: #009999; }
+
+/* ######################################################
+
+
+*general
+
+
+########################################################## */
+.site-header {
+  text-align: center;
+  padding: 20px 0 30px; }
+
+.site-title {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  float: none; }
+
+nav.site-nav {
+  float: none;
+  line-height: 0; }
+nav .page-link {
+  float: none;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: lowercase; }
+
+.intro {
+  padding: 40px;
+  text-align: center; }
+  .intro p {
+    width: 70%;
+    margin: 0 auto;
+    font-family: "roboto slab", serif;
+    font-size: 36px; }
+
+.category {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.08em; }
