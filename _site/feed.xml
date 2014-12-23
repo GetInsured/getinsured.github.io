@@ -6,8 +6,8 @@
 </description>
     <link>http://getinsured.github.io/dev//</link>
     <atom:link href="http://getinsured.github.io/dev//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Dec 2014 23:48:19 -0800</pubDate>
-    <lastBuildDate>Mon, 22 Dec 2014 23:48:19 -0800</lastBuildDate>
+    <pubDate>Tue, 23 Dec 2014 10:42:32 -0800</pubDate>
+    <lastBuildDate>Tue, 23 Dec 2014 10:42:32 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -244,7 +244,7 @@ cp /Users/seimithsuth/Documents/workfolder/SHARED-PLATFORMS/ghix/ghix-platform/s
 &lt;/ol&gt;
 
 
-&lt;a href=&quot;/setup-workspace-part-2&quot;&gt;Next - Start Your Server: (2/3)&lt;/a&gt;
+&lt;a href=&quot;/start-server-part-2&quot;&gt;Next - Start Your Server: (2/3)&lt;/a&gt;
 
 
 

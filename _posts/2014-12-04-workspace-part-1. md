@@ -67,7 +67,7 @@ cp /Users/seimithsuth/Documents/workfolder/SHARED-PLATFORMS/ghix/ghix-platform/s
 </ol>
 
 
-<a href="{{ "/setup-workspace-part-2" | prepend: site.baseurl }}">Next - Start Your Server: (2/3)</a>
+<a href="{{ "/start-server-part-2" | prepend: site.baseurl }}">Next - Start Your Server: (2/3)</a>
 
 
 
