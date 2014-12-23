@@ -6,23 +6,22 @@ showheader: 			true
 <div class="home">
     <div class="intro">
         <p>We're creating a place that we can create and build together. Here's a working document that everyone can contribute to &mdash; whether it be ideas, neat tricks or guidelines.</p>
-        <a href="{{ BASE_PATH }}/contribute">Learn how to contribute</a>
+        <a href="{{ BASE_PATH }}/dev/contribute">Learn how to contribute</a>
     </div>
 
     <div class="wrapper">
-
-        
-        {% for category in site.categories %}
-            <p class="category" name="{{ category | first }}">{{ category | first }}</p>
-            <ul>
-            {% for posts in category %}
-              {% for post in posts %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-              {% endfor %}
-            {% endfor %}
-            </ul>
-        {% endfor %} 
-
+        <div class="category">
+            {% for category in site.categories %}
+                <p name="{{ category | first }}">{{ category | first }}</p>
+                <ul>
+                {% for posts in category %}
+                  {% for post in posts %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                  {% endfor %}
+                {% endfor %}
+                </ul>
+            {% endfor %} 
+        </div><!--/.category-->
 
       <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
     </div><!--/.wrapper-->

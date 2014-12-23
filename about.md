@@ -1,7 +1,7 @@
 ---
 layout: 				page
 title: 					about
-permalink: 				/about/
+permalink: 				/dev/about/
 showheader: 			true
 ---
 

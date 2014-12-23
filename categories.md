@@ -1,7 +1,7 @@
 ---
 layout: page
 title: categories
-permalink: /categories/
+permalink: /dev/categories/
 showheader: 			true
 ---
 

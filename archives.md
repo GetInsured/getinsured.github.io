@@ -1,7 +1,7 @@
 ---
 layout: 				page
 title: 					archives
-permalink: 				/archives/
+permalink: 				/dev/archives/
 showheader: 			true
 ---
 <ul class="post-list">

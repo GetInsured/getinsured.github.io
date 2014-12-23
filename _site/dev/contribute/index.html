@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>archives</title>
+  <title>Contribute</title>
   <meta name="description" content="Here are the building blocks to a successful front-end development world.
 ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://getinsured.github.io/dev//archives/">
+  <link rel="canonical" href="http://getinsured.github.io/dev//dev/contribute/">
   <link rel="alternate" type="application/rss+xml" title="gi stardust" href="http://getinsured.github.io/dev//feed.xml" />
 </head>
 
@@ -37,19 +37,21 @@
       <div class="trigger">
         
           
-          <a class="page-link" href="/about/">about</a>
+          <a class="page-link" href="/dev/about/">about</a>
           
         
           
-          <a class="page-link" href="/archives/">archives</a>
+          <a class="page-link" href="/dev/archives/">archives</a>
           
         
           
-          <a class="page-link" href="/categories/">categories</a>
+          <a class="page-link" href="/dev/categories/">categories</a>
           
         
           
-          <a class="page-link" href="/contribute/">contribute</a>
+          <a class="page-link" href="/dev/contribute/">Contribute</a>
+          
+        
           
         
           
@@ -72,96 +74,65 @@
         <div class="post wrapper">
 
   <header class="post-header">
-    <h1 class="post-title">archives</h1>
+    <h1 class="post-title">Contribute</h1>
   </header>
 
   <article class="post-content">
-    <ul class="post-list">
-	
+    <ul>
+	<li>Go to the <a href="//github.com/GetInsured/getinsured.github.io">GI Github Repository</a></li>
+	<li>git clone <code>https://github.com/GetInsured/getinsured.github.io.git</code></li>
+	<li>If you have permission issues, make sure the Github Administrator adds you as a contributor.</li>
+</ul>
+
+<h3>Run the branch locally in 3 easy steps:</h3>
+<ol>
+	<li>Simply cd into the <code>dev</code> folder</li>
+	<li>Run <code>jekyll serve --watch</code>.</li>
+	<li><span class="cheat">If you change some YAML configurations and you don't see it locally, restart the server.</span></li>
+</ol>
+
+<h3>Create a post:</h3>
+
+<ul>
+	<li>To create a post in the command line go to the dev folder.</li>
+	<li><code>touch dev/_posts/2014-12-01-test.markdown</code></li>
+	<li>A file is automatically created under <code>_posts</code>.</li>
+	<li>The proper formatted needs <code>YYYY-MM-DD</code>.</li>
+	<li>Specify your own front matter.</li>
+	<li><span class="cheat">To have all the front matter already there, copy and paste an existing post and change the title and permalink yourself.</span></li>
+</ul>
+
+<h3>Relative links:</h3>
+
+<p>Use the following path for relative links: </p>
+<pre>&lt;a href="&#123;&#123; BASE_PATH &#125;&#125;/test"&gt;test&lt;/a&gt;</pre>
+
+<h3>Grunt.js</h3>
+
+<p>We’ve put Grunt.js in this workspace. Simply run Grunt within the <code>dev</code> folder. We’ve only included the most minimal grunt tasks. <span class="cheat">You only need grunt if you’re changing styles.</span></p>
+
+<ul>
+	<li>Follow these <a href="http://24ways.org/2013/grunt-is-not-weird-and-hard/">super easy instructions</a> to install grunt in this project.</li>
+	<li><code>npm install grunt-contrib-sass --save-dev</code></li>
+	<li><code>npm install grunt-contrib-watch --save-dev</code></li>
+	<li>The node_modules folder is already in the <code>.gitignore</code> file.</li>
+</ul>
+
+<h3>Jekyll</h3>
+
+<p>We are powering this documentation with <a href="http://jekyllrb.com/">Jekyll</a>. </p>
+
+<h3>Troubleshooting</h3>
+
+<ul>
 	<li>
-		<h2>
-			<a class="post-link" href="/jekyll/update/2014/12/22/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-		</h2>
-		<span class="post-meta">Dec 22, 2014</span>
+		<h4>I don't see my post.</h4>
+		<p>Make sure you've specified the <code>permalink</code> in the front matter.</p>
 	</li>
-	
 	<li>
-		<h2>
-			<a class="post-link" href="/phix-2015-colors">Colors</a>
-		</h2>
-		<span class="post-meta">Dec 18, 2014</span>
+		<h4>My header isn't showing up.</h4>
+		<p>There should be an attribute in the front matter <code>showheader: true</code>.</p>
 	</li>
-	
-	<li>
-		<h2>
-			<a class="post-link" href="/prototyping">Prototyping</a>
-		</h2>
-		<span class="post-meta">Dec 18, 2014</span>
-	</li>
-	
-	<li>
-		<h2>
-			<a class="post-link" href="/chrome-extensions">Chrome Extensions</a>
-		</h2>
-		<span class="post-meta">Dec 18, 2014</span>
-	</li>
-	
-	<li>
-		<h2>
-			<a class="post-link" href="/setup-workspace-part-3">Stop Your Server: (3/3)</a>
-		</h2>
-		<span class="post-meta">Dec 17, 2014</span>
-	</li>
-	
-	<li>
-		<h2>
-			<a class="post-link" href="/start-server-part-2">Start Your Server: (2/3)</a>
-		</h2>
-		<span class="post-meta">Dec 17, 2014</span>
-	</li>
-	
-	<li>
-		<h2>
-			<a class="post-link" href="/setup-workspace-part-1">Build Your Workspace: (1/3)</a>
-		</h2>
-		<span class="post-meta">Dec 17, 2014</span>
-	</li>
-	
-	<li>
-		<h2>
-			<a class="post-link" href="/phix-2015-typography">Typography</a>
-		</h2>
-		<span class="post-meta">Dec 17, 2014</span>
-	</li>
-	
-	<li>
-		<h2>
-			<a class="post-link" href="/humans-file">Humans.md</a>
-		</h2>
-		<span class="post-meta">Dec 17, 2014</span>
-	</li>
-	
-	<li>
-		<h2>
-			<a class="post-link" href="/gi-resources">GetInsured Resources</a>
-		</h2>
-		<span class="post-meta">Dec 17, 2014</span>
-	</li>
-	
-	<li>
-		<h2>
-			<a class="post-link" href="/lessons/2014/12/02/jekyll-introduction.html">Jekyll Introduction</a>
-		</h2>
-		<span class="post-meta">Dec 2, 2014</span>
-	</li>
-	
-	<li>
-		<h2>
-			<a class="post-link" href="/contribute">Contribute to this Repository</a>
-		</h2>
-		<span class="post-meta">Dec 1, 2014</span>
-	</li>
-	
 </ul>
 
   </article>

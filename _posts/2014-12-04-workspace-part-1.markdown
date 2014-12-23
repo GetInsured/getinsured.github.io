@@ -14,6 +14,8 @@ Here are deployment steps to set up your workspace like the smart engineers do.
 <p>If you've done this already, skip to <a href="{{ "/setup-workspace-part-2" | prepend: site.baseurl }}">Start Server</a>
 <ol>
 	<li>Download <a href="http://tomcat.apache.org/download-70.cgi">tomcat</a> (Core: zip or tar.gz)</li>
+	<li>Download <a href="http://maven.apache.org/download.cgi">maven</a></li>
+	<li>Put both folders into your Software folder</li>
 	<li>Create <code>.profile</code> and change the specific paths
 <pre>
 M2_HOME=/Users/leong_e/Software/apache-maven-3.2.2

@@ -6,8 +6,8 @@
 </description>
     <link>http://getinsured.github.io/dev//</link>
     <atom:link href="http://getinsured.github.io/dev//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Dec 2014 10:42:32 -0800</pubDate>
-    <lastBuildDate>Tue, 23 Dec 2014 10:42:32 -0800</lastBuildDate>
+    <pubDate>Tue, 23 Dec 2014 13:54:28 -0800</pubDate>
+    <lastBuildDate>Tue, 23 Dec 2014 13:54:28 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -90,14 +90,15 @@
         <description>&lt;p&gt;A list of extensions that everyone&#39;s come across and use daily in our workflow.&lt;/p&gt;
 
 &lt;h3&gt;&lt;a href=&quot;http://www.colorzilla.com/chrome/&quot;&gt;ColorZilla&lt;/a&gt;&lt;/h3&gt;
-Grab colors on any website.
+&lt;p&gt;Grab colors on any website.&lt;/p&gt;
 
-&lt;img src=&quot;/images/colorzilla.png&quot; alt=&quot;colorzilla&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/images/colorzilla.png&quot; alt=&quot;colorzilla&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;&lt;a href=&quot;http://www.fontface.ninja/&quot;&gt;FontFaceNina&lt;/a&gt;&lt;/h3&gt;
-Analyze basic parameters of any font face on any website.
+&lt;p&gt;Analyze basic parameters of any font face on any website.&lt;/p&gt;
 
-&lt;img src=&quot;/images/font-face-ninja.png&quot; alt=&quot;Font Face Ninja&quot;&gt;</description>
+&lt;p&gt;&lt;img src=&quot;/images/font-face-ninja.png&quot; alt=&quot;Font Face Ninja&quot; /&gt;&lt;/p&gt;
+</description>
         <pubDate>Thu, 18 Dec 2014 00:00:00 -0800</pubDate>
         <link>http://getinsured.github.io/dev//chrome-extensions</link>
         <guid isPermaLink="true">http://getinsured.github.io/dev//chrome-extensions</guid>
@@ -116,17 +117,16 @@ Analyze basic parameters of any font face on any website.
 	&lt;li&gt;&lt;code&gt;/Users/leong_e/Software/apache-tomcat-7.0.55/bin/./catalina.sh stop&lt;/code&gt; &lt;span class=&quot;cheat&quot;&gt;Use shortcut &quot;control + r&quot; + type stop&lt;/span&gt;&lt;/li&gt;
 	&lt;li&gt;Check to see if your server is stopped &lt;code&gt;ps ux | grep &#39;tomcat&#39;&lt;/code&gt;. 
 		&lt;p&gt;You should only see one line of code on top of the command.&lt;/p&gt;
-	&lt;img src=&quot;/images/deployment-stop-successful.png&quot; alt=&quot;stop server successful&quot;&gt;
+	&lt;img src=&quot;/images/deployment-stop-successful.png&quot; alt=&quot;stop server successful&quot; /&gt;
 	&lt;/li&gt;
 	&lt;li&gt;If the server has more than 1 line, it&#39;s still running, you must kill ^_^&lt;/li&gt;
 	&lt;li&gt;Get your process ID
-	&lt;img src=&quot;/images/deployment-stop-not-successful.png&quot; alt=&quot;stop server process ID&quot;&gt;
+	&lt;img src=&quot;/images/deployment-stop-not-successful.png&quot; alt=&quot;stop server process ID&quot; /&gt;
 	&lt;/li&gt;
 	&lt;li&gt; &lt;code&gt;kill -9 28643&lt;/code&gt; &lt;/li&gt;
-	&lt;li&gt;code&gt;ps ux | grep &#39;tomcat&#39;&lt;/code&gt;&lt;/li&gt;
+	&lt;li&gt;code&amp;gt;ps ux | grep &#39;tomcat&#39;&lt;/li&gt;
 	&lt;li&gt;boom. success.&lt;/li&gt;
 &lt;/ol&gt;
-
 
 </description>
         <pubDate>Wed, 17 Dec 2014 00:00:00 -0800</pubDate>
@@ -169,9 +169,7 @@ Analyze basic parameters of any font face on any website.
 	&lt;li&gt;&lt;code&gt;cp &amp;lt;FILEPATH&amp;gt; hix/&amp;lt;FILEPATH&amp;gt;&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-
-&lt;a href=&quot;/setup-workspace-part-3&quot;&gt;Next - Stop Your Server: (3/3)&lt;/a&gt;
-
+&lt;p&gt;&lt;a href=&quot;/setup-workspace-part-3&quot;&gt;Next - Stop Your Server: (3/3)&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 17 Dec 2014 00:00:00 -0800</pubDate>
@@ -185,12 +183,14 @@ Analyze basic parameters of any font face on any website.
     
       <item>
         <title>Build Your Workspace: (1/3)</title>
-        <description>Here are deployment steps to set up your workspace like the smart engineers do.
+        <description>&lt;p&gt;Here are deployment steps to set up your workspace like the smart engineers do.&lt;/p&gt;
 
 &lt;h3&gt;Build Your Workspace: You only need to do this ONCE&lt;/h3&gt;
 &lt;p&gt;If you&#39;ve done this already, skip to &lt;a href=&quot;/setup-workspace-part-2&quot;&gt;Start Server&lt;/a&gt;
 &lt;ol&gt;
 	&lt;li&gt;Download &lt;a href=&quot;http://tomcat.apache.org/download-70.cgi&quot;&gt;tomcat&lt;/a&gt; (Core: zip or tar.gz)&lt;/li&gt;
+	&lt;li&gt;Download &lt;a href=&quot;http://maven.apache.org/download.cgi&quot;&gt;maven&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Put both folders into your Software folder&lt;/li&gt;
 	&lt;li&gt;Create &lt;code&gt;.profile&lt;/code&gt; and change the specific paths
 &lt;pre&gt;
 M2_HOME=/Users/leong_e/Software/apache-maven-3.2.2
@@ -250,6 +250,7 @@ cp /Users/seimithsuth/Documents/workfolder/SHARED-PLATFORMS/ghix/ghix-platform/s
 
 
 
+&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 Dec 2014 00:00:00 -0800</pubDate>
         <link>http://getinsured.github.io/dev//setup-workspace-part-1</link>
@@ -264,13 +265,24 @@ cp /Users/seimithsuth/Documents/workfolder/SHARED-PLATFORMS/ghix/ghix-platform/s
         <title>Typography</title>
         <description>&lt;h3&gt;PHIX 2015 Typography&lt;/h3&gt;
 
-The following fonts are being used in the PHIX 2015 theme. 
+&lt;p&gt;The following Google Fonts are being used in the PHIX 2015 theme. &lt;/p&gt;
 
-&lt;a href=&quot;//www.google.com/fonts/specimen/Roboto+Slab&quot;&gt;Roboto Slab&lt;/a&gt;
+&lt;ul class=&quot;typography&quot;&gt;
+	&lt;li&gt;
+		&lt;a class=&quot;roboto&quot; href=&quot;//www.google.com/fonts/specimen/Roboto+Slab&quot;&gt;Roboto Slab&lt;/a&gt;
+		&lt;p&gt;We use Roboto Slab for header fonts.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a class=&quot;lato&quot; href=&quot;//www.google.com/fonts/specimen/Lato&quot;&gt;Lato&lt;/a&gt; 
+		&lt;p&gt;We use Lato for our body font.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;//fortawesome.github.io/Font-Awesome/3.2.1/&quot;&gt;FontAwesome 3.2.1&lt;/a&gt;
+		&lt;p&gt;We use FontAwesome for most of our icons.&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;a href=&quot;//www.google.com/fonts/specimen/Lato&quot;&gt;Lato&lt;/a&gt; 
-
-&lt;a href=&quot;//fortawesome.github.io/Font-Awesome/3.2.1/&quot;&gt;FontAwesome 3.2.1&lt;/a&gt;</description>
+</description>
         <pubDate>Wed, 17 Dec 2014 00:00:00 -0800</pubDate>
         <link>http://getinsured.github.io/dev//phix-2015-typography</link>
         <guid isPermaLink="true">http://getinsured.github.io/dev//phix-2015-typography</guid>
@@ -311,13 +323,14 @@ The following fonts are being used in the PHIX 2015 theme.
 
 &lt;h4&gt;GetInsured Logo Formats&lt;/h4&gt;
 &lt;p&gt;Download them here:&lt;/p&gt;
-&lt;a href=&quot;#&quot;&gt;PNG&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;PNG&lt;/a&gt;
 &lt;a href=&quot;#&quot;&gt;SVG&lt;/a&gt;
 &lt;a href=&quot;#&quot;&gt;AI&lt;/a&gt;
-&lt;a href=&quot;#&quot;&gt;JPG&lt;/a&gt;
+&lt;a href=&quot;#&quot;&gt;JPG&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4&gt;GetInsured Favicon&lt;/h4&gt;
-&lt;p&gt;Download them here:&lt;/p&gt;</description>
+&lt;p&gt;Download them here:&lt;/p&gt;
+</description>
         <pubDate>Wed, 17 Dec 2014 00:00:00 -0800</pubDate>
         <link>http://getinsured.github.io/dev//gi-resources</link>
         <guid isPermaLink="true">http://getinsured.github.io/dev//gi-resources</guid>
